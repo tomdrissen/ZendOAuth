@@ -31,7 +31,7 @@ class Rsa extends AbstractSignature
     {
         $rsa = new RsaEnc(new RsaEncOptions(array(
             'hash_algorithm' => $this->_hashAlgorithm,
-            'binary_output'   => true
+            'binary_output'   => false
         )));
 
         return $rsa->sign($this->_getBaseSignatureString($params, $method, $url), $this->_key);
