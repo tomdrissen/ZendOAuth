@@ -1,6 +1,6 @@
 {
-    "name": "zendframework/zendoauth",
-    "description": " ",
+    "name": "tomdrissen/zendoauth",
+    "description": "Improved version of ZendOAuth with 'binary_output' of RSA signature set to false.",
     "type": "library",
     "license": "BSD-3-Clause",
     "keywords": [
